@@ -30,11 +30,39 @@ linkedin_username: rishav-kumar-1604
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as Software Developer at Comviva Technologies. I have worked on different projects and have interacted with different teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact and resolving the issue together with clients. |
+  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as Software Developer at Comviva Technologies. I have worked on different projects and have interacted with different teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact and resolving the issue together with clients.
 
   I am most skilled in: <mark>Python</mark> and <mark>Ruby</mark>. I have experience NoSQL databases like: <mark>Redis</mark>, <mark>MongoDB</mark>, <mark>Neo4j</mark> and Relational Databases like <mark>MySQL</mark> and <mark> Oracle </mark>. I have worked on cloud platforms like: <mark>AWS</mark> and <mark> GCP</mark>. I have experience in version control systems like: <mark>Git</mark> and creating CI/CD pipelines using <mark> Github Actions</mark>.
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Columbia University
+        caption: 2021 - 2022
+        sub_title: MS in Computer Science
+        quote: >
+          Columbia University is a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, Columbia is the oldest institution of higher education in New York and the fifth-oldest institution of higher learning in the United States.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
+  
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Comviva
+        link: comviva.com
+        # link_text: boringcompany.com
+        sub_title: Senior Software Developer
+        caption: August 2016 - October 2020
+        quote: >
+          Customer centricity, innovation and ethical corporate governance are at our core. We strive to solve our customers’ real, on-ground challenges and help them transform their lives to create a better world.
+        description: | # this will include new lines to allow paragraphs
+            I joined Comviva as a Software developer in 2016 with no knowledge about software development. All I had was my problem solving skills and never give up attitude. Started off with developing APIs doing simple CRUD operations and soon launched into the big league of developing Subscription Engine and Content Downloads. After working on a couple of applications, I moved to live streaming domain.  Created a live movie channel whose scheduled can be updated on the fly and can have features like ad-insertion as well as relaying feed from other channels.
+
+            After being promoted as Senior Developer, I was showered with the opportunity to lead back-end development on a music application. Apart from developing its APIs, I also contributed to its system design considering it's highly available and scalable infrastructure. 
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -59,51 +87,12 @@ content:
         quote: >
           Say Hello to your world of creating custom forms
         description: | # this will include new lines to allow paragraphs
-          This is a project which me and fellow mates developed for a Graduate level course Advanced Software Engineering at Columbia University. This is a Backend as a Service where you can provide us with your custom form template.
+          This is a project which me and fellow mates developed for a Graduate level course Advanced Software Engineering at Columbia University.
 
-          Once the form template is registered, you can provide those template to the end-user and use our APIs to save the data. We maintain separate namespace for every template.
-          
-          So you see!! You don't know to know any back-end language now to store data of your users. We are here to help. 
+          This is a Backend as a Service where you can provide us with your custom form template. Once the form template is registered, you can provide those template to the end-user and use our APIs to save the data. We maintain separate namespace for every template.
+
+          So you see!! You don't need to know any back-end language now to store data of your users. We are here to help. 
          
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Comviva
-        link: comviva.com
-        # link_text: boringcompany.com
-        sub_title: Senior Software Developer
-        caption: August 2016 - October 2020
-        quote: >
-          Customer centricity, innovation and ethical corporate governance are at our core. We strive to solve our customers’ real, on-ground challenges and help them transform their lives to create a better world.
-        description: | # this will include new lines to allow paragraphs
-            I joined Comviva as a Software developer in 2016 with no knowledge about software development. All I had was my problem solving skills and never give up attitude. Started off with developing APIs doing simple CRUD operations and soon launched into the big league of developing Subscription Engine and Content Downloads. After working on a couple of applications, I moved to live streaming domain.  Created a live movie channel whose scheduled can be updated on the fly and can have features like ad-insertion as well as relaying feed from other channels.
-            After being promoted as Senior Developer, I was showered with the opportunity to lead back-end development on a music application. Apart from developing its APIs, I also contributed to its system design considering it's highly available and scalable infrastructure. 
-      - layout: left
-        title: Comviva
-        link: comviva.com
-        # link_text: boringcompany.com
-        sub_title: Senior Software Developer
-        caption: August 2016 - October 2020
-        quote: >
-          Customer centricity, innovation and ethical corporate governance are at our core. We strive to solve our customers’ real, on-ground challenges and help them transform their lives to create a better world.
-        description: | # this will include new lines to allow paragraphs
-            I joined Comviva as a Software developer in 2016 with no knowledge about software development. All I had was my problem solving skills and never give up attitude. Started off with developing APIs doing simple CRUD operations and soon launched into the big league of developing Subscription Engine and Content Downloads. After working on a couple of applications, I moved to live streaming domain.  Created a live movie channel whose scheduled can be updated on the fly and can have features like ad-insertion as well as relaying feed from other channels.
-            After being promoted as Senior Developer, I was showered with the opportunity to lead back-end development on a music application. Apart from developing its APIs, I also contributed to its system design considering it's highly available and scalable infrastructure.       
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Columbia University
-        caption: 2021 - 2022
-        sub_title: MS in Computer Science
-        quote: >
-          Columbia University is a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, Columbia is the oldest institution of higher education in New York and the fifth-oldest institution of higher learning in the United States.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
-          
-
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
