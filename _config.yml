@@ -39,20 +39,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Fern - Feeling Blue Go Green
+        link: github.com/rk3142/fern-production
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Let's take small steps in protecting our environment while purchasing online
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This is a project which me and fellow mates developed for a Graduate level course ESaaS at Columbia University.
+          The project allows user to make informed decision while purchasing products online. The consumers can select the product on the basis of greeness score and they can then be re-directed to the respective e-commerce site. 
+          The backend of this product is developed on <mark>Ruby on Rails</mark> and the Front-end is developed on <mark>React</mark>. A complete CI/CD pipeline was developed on <mark>Heroku</mark>.
+          I am very proud of having this project in my portfolio.
+      - layout: top-middle
+        title: Form-Hoster
+        link: https://github.com/rk3142/marc1
+        # link_text: Project Website
+        quote: >
+          Say Hello to your world of creating custom forms
+        description: | # this will include new lines to allow paragraphs
+          This is a project which me and fellow mates developed for a Graduate level course ESaaS at Columbia University.
+          The project allows user to make informed decision while purchasing products online. The consumers can select the product on the basis of greeness score and they can then be re-directed to the respective e-commerce site. 
+          The backend of this product is developed on <mark>Ruby on Rails</mark> and the Front-end is developed on <mark>React</mark>. A complete CI/CD pipeline was developed on <mark>Heroku</mark>.
+          I am very proud of having this project in my portfolio.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -78,7 +85,7 @@ content:
         quote: >
           Columbia University is a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, Columbia is the oldest institution of higher education in New York and the fifth-oldest institution of higher learning in the United States.
         description: | # this will include new lines to allow paragraphs
-          During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, </mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
+          During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
           
 
   - title: A Little More About Me
