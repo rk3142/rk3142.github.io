@@ -47,6 +47,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
   
+
+  
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -63,9 +65,40 @@ content:
 
             After being promoted as Senior Developer, I was showered with the opportunity to lead back-end development on a music application. Apart from developing its APIs, I also contributed to its system design considering it's highly available and scalable infrastructure. 
   
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Classification of Benign and Malignant Tumors using Support Vector Machine
+        caption: 2016
+        link: https://ieeexplore.ieee.org/document/7807941
+        description: | # this will include new lines to allow paragraphs
+          This work presents a Computer Aided Diagnosis (CAD) system that helps radiologists in differentiating malignant and benign bone lesions in the spine on Computed Tomography (CT) images usingSupport Vector Machines(SVM). The CT images are segmented using Snakes or Active Contour Model to retrieve the Region of Interest(ROI). From the segmented images, Haralick features are calculated. These features are then passed to the SVM classifier. With the help of SVM model generated, the data are classified into benign and malignant nodules. The performances of different kernel functions are compared.
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Live Football Event Streaming
+        # link_text: Project Website
+        
+        description: | # this will include new lines to allow paragraphs
+          I worked on the streaming architecture using <mark> Wowza Streaming Engine </mark> and developed modules that validated the authenticity of the source initiating the streaming request and then provided the content for streaming. <mark> The product had the capacity to support more than 100k concurrent streaming sessions </mark>.
+
+      - layout: top-middle
+        title: Celebrity Interaction Application
+        # link_text: Project Website
+        
+        description: | # this will include new lines to allow paragraphs
+          I worked on the streaming architecture using Wowza Streaming Engine and developed modules that validated the authenticity of the source initiating the streaming request and then provided the content for streaming. I used <mark> Wowza Streaming Engine </mark> as a streaming service and <mark> HLS </mark> protocol to provide streaming to the end-user. The product had the capacity to support 100k concurrent streaming sessions. 
+
+      - layout: top-middle
+        title: Interactive Kids Application
+        # link_text: Project Website
+        
+        description: | # this will include new lines to allow paragraphs
+          This was my first project as a software developer. The application had contents like pictures, poems, games and videos segregated into different age groups. I worked on the backend of this application written in Ruby on Rails. I worked on login, favorite, content streaming, content download and subscription engine of the product. I also did unit testing, load testing of the product.
+
       - layout: top-middle
         title: Fern - Feeling Blue Go Green
         link: github.com/rk3142/fern-production
@@ -96,14 +129,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
+      Alongside my interests in software engineering some of my other interests and hobbies are:
       - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Play with dogs in the park
+      - Singing
+      - Playing Piano (Actually I am at level 0. Tada :D)
 
 # Footer
 footer_show_references: true
