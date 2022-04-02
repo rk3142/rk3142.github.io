@@ -30,9 +30,9 @@ linkedin_username: rishav-kumar-1604
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as Back-end Developer at Comviva Technologies. I have worked on several projects and have interacted with multiple teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact with the stakeholder and initiating the issue together with clients.
+  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as <mark> Back-end Developer</mark> at Comviva Technologies. I have worked on several projects and have interacted with multiple teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact with the stakeholder and collaborating with clients .
 
-  I am most skilled in: <mark>Python</mark> and <mark>Ruby</mark>. I have experience NoSQL databases like: <mark>Redis</mark>, <mark>MongoDB</mark>, <mark>Neo4j</mark> and Relational Databases like <mark>MySQL</mark> and <mark> Oracle </mark>. I have worked on cloud platforms like: <mark>AWS</mark> and <mark> GCP</mark>. I have experience in version control systems like: <mark>Git</mark> and creating CI/CD pipelines using <mark> Github Actions</mark>.
+  I am most skilled in: <mark>Python</mark> and <mark>Ruby</mark>. I have experience in NoSQL databases like: <mark>Redis</mark>, <mark>MongoDB</mark>, <mark>Neo4j</mark> and Relational Databases like <mark>MySQL</mark> and <mark> Oracle </mark>. I have worked on cloud platforms like: <mark>AWS</mark> and <mark> GCP</mark>. I have experience in version control systems like: <mark>Git</mark> and creating CI/CD pipelines using <mark> Github Actions and Cicle CI</mark>.
 
 content:
   - title: Education # Title for the section
@@ -45,7 +45,7 @@ content:
         quote: >
           Columbia University is a private Ivy League research university in New York City. Established in 1754 as King's College on the grounds of Trinity Church in Manhattan, Columbia is the oldest institution of higher education in New York and the fifth-oldest institution of higher learning in the United States.
         description: | # this will include new lines to allow paragraphs
-          During my time at Columbia, what I learnt the most was never give up. Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
+          During my time at Columbia, what I learnt the most is "never give up". Having a formal education in Computer Science had been my goal for nearly 7 years. I took subjects like <mark>Operating System</mark>, <mark>Analysis of Algorithms</mark>, <mark>Advanced Algorithms</mark>, <mark>Database Management System</mark>, <mark>Adavanced Software Engineering</mark>, <mark>Artificial Intelligence</mark>, <mark>Advanced Database Systems</mark>, <mark>Cloud Computing</mark>, <mark> Programming Language and Translators.</mark>
   
 
   
@@ -61,7 +61,7 @@ content:
         quote: >
           Customer centricity, innovation and ethical corporate governance are at our core. We strive to solve our customers’ real, on-ground challenges and help them transform their lives to create a better world.
         description: | # this will include new lines to allow paragraphs
-            I joined Comviva as a Software developer in 2016 with no knowledge about software development. All I had was my problem solving skills and never give up attitude. Started off with developing APIs doing simple CRUD operations and soon launched into the big league of developing Subscription Engine and Content Downloads. After working on a couple of applications, I moved to live streaming domain.  Created a live movie channel whose scheduled can be updated on the fly and can have features like ad-insertion as well as relaying feed from other channels.
+            I joined Comviva as a Software developer in 2016 with little to no knowledge in software development. All I had was my problem solving skills and never give up attitude. Started off with developing APIs doing simple CRUD operations and soon launched into the big league of developing Subscription Engine and Content Downloads. After working on a couple of applications, I moved to live streaming domain.  Created a live movie channel whose scheduled can be updated on the fly and can have features like ad-insertion as well as relaying feed from other channels.
 
             After being promoted as Senior Developer, I was showered with the opportunity to lead back-end development on a music application. Apart from developing its APIs, I also contributed to its system design considering it's highly available and scalable infrastructure. 
   
@@ -73,7 +73,7 @@ content:
         caption: 2016
         link: https://ieeexplore.ieee.org/document/7807941
         description: | # this will include new lines to allow paragraphs
-          This work presents a Computer Aided Diagnosis (CAD) system that helps radiologists in differentiating malignant and benign bone lesions in the spine on Computed Tomography (CT) images usingSupport Vector Machines(SVM). The CT images are segmented using Snakes or Active Contour Model to retrieve the Region of Interest(ROI). From the segmented images, Haralick features are calculated. These features are then passed to the SVM classifier. With the help of SVM model generated, the data are classified into benign and malignant nodules. The performances of different kernel functions are compared.
+          This work presents a Computer Aided Diagnosis (CAD) system that helps radiologists in differentiating malignant and benign bone lesions in the spine on Computed Tomography (CT) images using Support Vector Machines(SVM). The CT images are segmented using Snakes or Active Contour Model to retrieve the Region of Interest(ROI). From the segmented images, Haralick features are calculated. These features are then passed to the SVM classifier. With the help of SVM model generated, the data are classified into benign and malignant nodules. The performances of different kernel functions are compared.
   
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -89,7 +89,7 @@ content:
         title: Subscription Report Analytics
         # link_text: Project Website          
         description: | # this will include new lines to allow paragraphs
-          This is my child project. More importantly this was entirely different from developing APIs. It was to design an architecture, a system through which an end-user can fetch data efficiently and with low latency. I had the full liberty of chosing technologies and I chose to move away from my comfort zone to challenges. I read and failed and tried again to come up with a scalable architecture. I worked on different types of data sources like MySQL, Postgres and Oracle and had an in-memory middle layer data storage that I needed for combining tables. Fun Fact, when I joined Grad School later, I came to know that this is Star Schema which came to me as an intution that time. 
+          This is my child project. More importantly this was entirely different from developing APIs. It was to design an architecture, a system through which an end-user can fetch data efficiently and with low latency. I had full liberty of chosing technologies and I chose to move away from my comfort zone to challenges. I read and failed and tried again to come up with a scalable architecture. I worked on different types of data sources like MySQL, Postgres and Oracle and had an in-memory middle layer data storage that I needed for combining tables. Fun Fact, when I joined Grad School later, I came to know that this is Star Schema which came to me as an intution that time. 
           
           Technologies Used: <mark>Python, Pandas, MySQL</mark>
       
@@ -99,7 +99,7 @@ content:
         quote: >
           Allows fans to follow their celebrities and view their contents
         description: | # this will include new lines to allow paragraphs
-          I worked on the Content Ingestion Module where contents like image and videos were uploaded by the end-user. The contents are then transcoded into different resolutions, thumbnails are extracted from the videos, and then uploaded into S3 storage. Another module that I worked on was Notification module that notified users when their favorite celebrities came online for live events. I also revamped the New Feeds module to improve its perforamce.
+          I worked on the Content Ingestion Module where contents like image and videos were uploaded by the end-user. The contents are then transcoded into different resolutions, thumbnails are extracted from the videos, and then uploaded into S3 storage. Another module that I worked on was Notification module that notified users when their favorite celebrities came online for live events. I also revamped the New Feeds module to improve its performance.
           
           Technologies Used: <mark> Ruby on Rails, FFMPEG, Redis, Apache Solr, RabbitMQ, Sneakers, Amazon S3, Wowza, MySQL. </mark>
 
@@ -108,7 +108,7 @@ content:
         # link_text: Project Website
         
         description: | # this will include new lines to allow paragraphs
-          This was the first project that I got to lead as a Back-end Developer. The application had features like msisdn login, user-specific dashboard contents, playlist curated by the administrator as well as user-curated playlists.I delivered modules like login/signup, content rendering, favorite an artist, album, playlist or song, adaptive streaming of video and audio contents, encryption of streaming content, creating custom playlist. I also implemented solutions that would generate streaming reports, daily usage statistics of the application and revenue generated by the product. The product was highly available and scalable operating over multiple data centers. Also implemented Sentinels in Redis to maintain highly available Redis Caching.
+          This was the first project that I got to lead as a Back-end Developer. The application had features like otp login, user-specific dashboard contents, playlist curated by the administrator as well as user-curated playlists.I delivered modules like login/signup, content rendering, favorite an artist, album, playlist or song, adaptive streaming of video and audio contents, encryption of streaming content, creating custom playlist. I also implemented solutions that would generate streaming reports, daily usage statistics of the application and revenue generated by the product. The product was highly available and scalable operating over multiple data centers. Also implemented Sentinels in Redis to maintain highly available Redis Caching.
           
           Technologies Used: <mark> Ruby on Rails, MySQL, Apache Solr, Redis, Redis Sentinels, Wowza Streaming Engine, Beanstalkd. </mark>
 
@@ -137,7 +137,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Me and fellow mates developed this project for a Graduate level course ESaaS at Columbia University.
 
-          The project allows user to make informed decision while purchasing products online. The consumers can select the product on the basis of greeness score and they can then be re-directed to the respective e-commerce site. 
+          The project allows user to make informed decision while purchasing products online. The consumers can select the product on the basis of greenness score and they can then be re-directed to the respective e-commerce site. 
 
           The backend of this product is developed on <mark>Ruby on Rails</mark> and the Front-end is developed on <mark>React</mark>. A complete CI/CD pipeline was developed on <mark>Heroku</mark>.
 
