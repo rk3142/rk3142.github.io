@@ -30,7 +30,7 @@ linkedin_username: rishav-kumar-1604
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as Software Developer at Comviva Technologies. I have worked on different projects and have interacted with different teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact and resolving the issue together with clients.
+  Hi, my name's Rishav Kumar and I'm a final year Computer Science Graduate Student at Columbia University in the City of New York. I completed my undergraduate degree from Manipal Institute of Technology, India in Electronics and Communication. I have over 4 years of experience as Back-end Developer at Comviva Technologies. I have worked on several projects and have interacted with multiple teams, learning from their experience and implementing them on the projects that I worked on. I have also led members of my team in different capacities like acting as a point of contact with the stakeholder and initiating the issue together with clients.
 
   I am most skilled in: <mark>Python</mark> and <mark>Ruby</mark>. I have experience NoSQL databases like: <mark>Redis</mark>, <mark>MongoDB</mark>, <mark>Neo4j</mark> and Relational Databases like <mark>MySQL</mark> and <mark> Oracle </mark>. I have worked on cloud platforms like: <mark>AWS</mark> and <mark> GCP</mark>. I have experience in version control systems like: <mark>Git</mark> and creating CI/CD pipelines using <mark> Github Actions</mark>.
 
@@ -79,14 +79,42 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Live Football Event Streaming
+        title: Live Football Matches Streaming
         # link_text: Project Website
         
         description: | # this will include new lines to allow paragraphs
           I worked on the streaming architecture using <mark> Wowza Streaming Engine </mark> and developed modules that validated the authenticity of the source initiating the streaming request and then provided the content for streaming. <mark> The product had the capacity to support more than 100k concurrent streaming sessions </mark>.
-
+            
+      - layout: top-middle
+        title: Subscription Report Analytics
+        # link_text: Project Website          
+        description: | # this will include new lines to allow paragraphs
+          This is my child project. More importantly this was entirely different from developing APIs. It was to design an architecture, a system through which an end-user can fetch data efficiently and with low latency. I had the full liberty of chosing technologies and I chose to move away from my comfort zone to challenges. I read and failed and tried again to come up with a scalable architecture. I worked on different types of data sources like MySQL, Postgres and Oracle and had an in-memory middle layer data storage that I needed for combining tables. Fun Fact, when I joined Grad School later, I came to know that this is Star Schema which came to me as an intution that time. Technologies Used: <mark>Python, Pandas, MySQL</mark>
+      
       - layout: top-middle
         title: Celebrity Interaction Application
+        # link_text: Project Website
+        quote: >
+          Allows fans to follow their celebrities and view their contents
+        description: | # this will include new lines to allow paragraphs
+          I worked on the Content Ingestion Module where contents like image and videos were uploaded by the end-user. The contents are then transcoded into different resolutions, thumbnails are extracted from the videos, and then uploaded into S3 storage. Another module that I worked on was Notification module that notified users when their favorite celebrities came online for live events. I also revamped the New Feeds module to improve its perforamce. Technologies Used: <mark> Ruby on Rails, FFMPEG, Redis, Apache Solr, RabbitMQ, Sneakers, Amazon S3, Wowza, MySQL. </mark>
+
+      - layout: top-middle
+        title: Live Movie Channel
+        # link_text: Project Website
+        
+        description: | # this will include new lines to allow paragraphs
+          I worked on the streaming architecture using Wowza Streaming Engine and developed modules that validated the authenticity of the source initiating the streaming request and then provided the content for streaming. I used <mark> Wowza Streaming Engine </mark> as a streaming service and <mark> HLS </mark> protocol to provide streaming to the end-user. The product had the capacity to support 100k concurrent streaming sessions. 
+      
+      - layout: top-middle
+        title: Music Application
+        # link_text: Project Website
+        
+        description: | # this will include new lines to allow paragraphs
+          I worked on the streaming architecture using Wowza Streaming Engine and developed modules that validated the authenticity of the source initiating the streaming request and then provided the content for streaming. I used <mark> Wowza Streaming Engine </mark> as a streaming service and <mark> HLS </mark> protocol to provide streaming to the end-user. The product had the capacity to support 100k concurrent streaming sessions. 
+      
+      - layout: top-middle
+        title: Group Watching Application
         # link_text: Project Website
         
         description: | # this will include new lines to allow paragraphs
